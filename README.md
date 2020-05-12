@@ -13,7 +13,7 @@
 ```java
 #enconding: utf-8
 Feature: Auditeste CA 
-	Como usuáro
+  Como usuáro
   Quero preencher informações
   Para continuar o processo 
   	
