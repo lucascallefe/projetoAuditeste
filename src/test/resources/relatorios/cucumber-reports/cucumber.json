@@ -1,0 +1,585 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 927369100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que acesso o sistema \"http://187.35.155.198:5722/Login.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://187.35.155.198:5722/Login.aspx\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.stepDefinition.que_acesso_o_sistema(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-12T01:37:16.177Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6658738500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.BeforeClass()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Deve validar login com sucesso",
+        "description": "",
+        "id": "auditeste-ca;deve-validar-login-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 4590479600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74957600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "optp por verificar campos existentes",
+            "match": {
+              "location": "Steps.stepDefinition.optp_por_verificar_campos_existentes()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 351797600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "opto por preencher email \"veron.oliveira@auditeste.com.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"veron.oliveira@auditeste.com.br\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136922500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "opto por preencher senha \"auditeste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"auditeste\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_senha(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2210007200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "opto por clicar em Entrar",
+            "match": {
+              "location": "Steps.stepDefinition.opto_por_clicar_em_Entrar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88949900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "opto por verificar usuario logado \"Ana Sousa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ana Sousa\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_verificar_usuario_logado(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginSucesso"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1154811200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que acesso o sistema \"http://187.35.155.198:5722/Login.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://187.35.155.198:5722/Login.aspx\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.stepDefinition.que_acesso_o_sistema(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-12T01:37:31.379Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5521329100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.BeforeClass()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Deve validar campos em branco",
+        "description": "",
+        "id": "auditeste-ca;deve-validar-campos-em-branco",
+        "after": [
+          {
+            "result": {
+              "duration": 3821287200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53969700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "optp por verificar campos existentes",
+            "match": {
+              "location": "Steps.stepDefinition.optp_por_verificar_campos_existentes()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95944200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "opto por preencher email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97944400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "opto por preencher senha \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_senha(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2238631500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "opto por clicar em Entrar",
+            "match": {
+              "location": "Steps.stepDefinition.opto_por_clicar_em_Entrar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79522500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "opto por verificar usuario logado \"Ana Sousa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ana Sousa\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_verificar_usuario_logado(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@erroLogin"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1048792100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que acesso o sistema \"http://187.35.155.198:5722/Login.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://187.35.155.198:5722/Login.aspx\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.stepDefinition.que_acesso_o_sistema(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-12T01:37:44.453Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5546181500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.BeforeClass()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Deve validar email",
+        "description": "",
+        "id": "auditeste-ca;deve-validar-email",
+        "after": [
+          {
+            "result": {
+              "duration": 3963160100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55967900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "optp por verificar campos existentes",
+            "match": {
+              "location": "Steps.stepDefinition.optp_por_verificar_campos_existentes()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271844700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "opto por preencher email \"teste@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste@hotmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141918500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "opto por preencher senha \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_senha(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2133689000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "opto por clicar em Entrar",
+            "match": {
+              "location": "Steps.stepDefinition.opto_por_clicar_em_Entrar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85896700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "opto por verificar usuario logado \"Ana Sousa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ana Sousa\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_verificar_usuario_logado(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@erroEmail"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1470299200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que acesso o sistema \"http://187.35.155.198:5722/Login.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://187.35.155.198:5722/Login.aspx\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.stepDefinition.que_acesso_o_sistema(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-12T01:37:57.715Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5648401300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.BeforeClass()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Deve validar senha",
+        "description": "",
+        "id": "auditeste-ca;deve-validar-senha",
+        "after": [
+          {
+            "result": {
+              "duration": 3845997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.stepDefinition.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59964900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "optp por verificar campos existentes",
+            "match": {
+              "location": "Steps.stepDefinition.optp_por_verificar_campos_existentes()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 357794900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "opto por preencher email \"veron.oliveira@auditeste.com.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"veron.oliveira@auditeste.com.br\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148915100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "opto por preencher senha \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_preencher_senha(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2180754800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "opto por clicar em Entrar",
+            "match": {
+              "location": "Steps.stepDefinition.opto_por_clicar_em_Entrar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89947000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "opto por verificar usuario logado \"Ana Sousa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ana Sousa\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.stepDefinition.opto_por_verificar_usuario_logado(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@erroSenha"
+          }
+        ]
+      }
+    ],
+    "name": "Auditeste CA",
+    "description": "\tComo usu�ro\n  Quero preencher informa��es\n  Para continuar o processo ",
+    "id": "auditeste-ca",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/feature_auditeste.feature",
+    "tags": []
+  }
+]

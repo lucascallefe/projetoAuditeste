@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="55.924">
+<testcase classname="Auditeste CA" name="Deve validar login com sucesso" time="15.188">
+<system-out><![CDATA[Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx"..........passed
+Given optp por verificar campos existentes..................................passed
+And opto por preencher email "veron.oliveira@auditeste.com.br"..............passed
+And opto por preencher senha "auditeste"....................................passed
+When opto por clicar em Entrar..............................................passed
+Then opto por verificar usuario logado "Ana Sousa"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Auditeste CA" name="Deve validar campos em branco" time="13.067">
+<system-out><![CDATA[Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx"..........passed
+Given optp por verificar campos existentes..................................passed
+And opto por preencher email "".............................................passed
+And opto por preencher senha "".............................................passed
+When opto por clicar em Entrar..............................................passed
+Then opto por verificar usuario logado "Ana Sousa"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Auditeste CA" name="Deve validar email" time="13.256">
+<system-out><![CDATA[Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx"..........passed
+Given optp por verificar campos existentes..................................passed
+And opto por preencher email "teste@hotmail.com"............................passed
+And opto por preencher senha "teste"........................................passed
+When opto por clicar em Entrar..............................................passed
+Then opto por verificar usuario logado "Ana Sousa"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Auditeste CA" name="Deve validar senha" time="13.808">
+<system-out><![CDATA[Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx"..........passed
+Given optp por verificar campos existentes..................................passed
+And opto por preencher email "veron.oliveira@auditeste.com.br"..............passed
+And opto por preencher senha "teste"........................................passed
+When opto por clicar em Entrar..............................................passed
+Then opto por verificar usuario logado "Ana Sousa"..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
