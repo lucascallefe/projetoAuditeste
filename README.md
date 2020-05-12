@@ -20,13 +20,22 @@ Feature: Auditeste CA
 Background: 
 	Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx" 
 	
+	
 @LoginSucesso 
 Scenario: Deve validar login com sucesso 
 	Given optp por verificar campos existentes 
 	And opto por preencher email "veron.oliveira@auditeste.com.br" 
 	And opto por preencher senha "auditeste" 
 	When opto por clicar em Entrar 
-	Then opto por verificar usuario logado "Ana Sousa" 
+	Then opto por verificar usuario logado "Ana Sousa" 	
+	
+@erroLogin 
+Scenario: Deve validar campos em branco 
+	Given optp por verificar campos existentes 
+	And opto por preencher email "" 
+	And opto por preencher senha "" 
+	When opto por clicar em Entrar 
+	Then opto por verificar usuario logado "Ana Sousa" 	
 	
 @erroEmail 
 Scenario: Deve validar email 
@@ -43,5 +52,7 @@ Scenario: Deve validar senha
 	And opto por preencher senha "teste" 
 	When opto por clicar em Entrar 
 	Then opto por verificar usuario logado "Ana Sousa" 
+	
+
    ```
    
